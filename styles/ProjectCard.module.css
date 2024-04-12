@@ -4,9 +4,23 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  align-items: center;
+}
+
+.card_single {
+  background: var(--article-bg);
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
 }
 
 .card:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_single:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -59,4 +73,8 @@
 
 .underline:hover {
   background-size: 100% 88%;
+}
+
+.img {
+  border-radius: 15px;
 }

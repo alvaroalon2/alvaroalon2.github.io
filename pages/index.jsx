@@ -7,13 +7,71 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>I BUILD</h1>
-          <h1>WEBSITES</h1>
+          <h1>AI</h1>
+          <h1>ENTTHUSIAST</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Nitin Ranganath</h1>
-            <h6 className={styles.bio}>Full Stack Web Developer</h6>
+            <h1 className={styles.name}>Álvaro Alonso</h1>
+            <h6 className={styles.bio}>Data Scientist</h6>
+            <div className={styles.cardContainer}>
+              <div className={styles.card}>
+                <div className={styles.content}>
+                  <h4>Skill Set</h4>
+                  <div className={styles.tags}>
+                    <span key='Python' className='Python'>
+                      Python
+                    </span>
+                    <span key='AWS' className='AWS'>
+                      AWS
+                    </span>
+                    <span key='GCP' className='GCP'>
+                      GCP
+                    </span>
+                    <span key='LangChain' className='LangChain'>
+                      LangChain
+                    </span>
+                    <span key='GenAI' className='GenAI'>
+                      GenAI
+                    </span>
+                    <span key='PyTorch' className='PyTorch'>
+                      PyTorch
+                    </span>
+                    <span key='Keras' className='Keras'>
+                      Keras
+                    </span>
+                    <span key='SQL' className='SQL'>
+                      SQL
+                    </span>
+                    <span key='MLOps' className='MLOps'>
+                      MLOps
+                    </span>
+                    <span key='Kubernetes' className='Kubernetes'>
+                      Kubernetes
+                    </span>
+                    <span key='Docker' className='Docker'>
+                      Docker
+                    </span>
+                    <span key='Forecasting' className='Forecasting'>
+                      Forecasting
+                    </span>
+                     <span key='XGBoost' className='XGBoost'>
+                      XGBoost
+                    </span>
+                    <span key='NLP' className='NLP'>
+                      NLP
+                    </span>
+                    <span key='LLM' className='LLM'>
+                      LLM
+                    </span>
+                    <span key='HuggingFace' className='HuggingFace'>
+                      HuggingFace
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             <Link href="/projects">
               <button className={styles.button}>View Work</button>
             </Link>

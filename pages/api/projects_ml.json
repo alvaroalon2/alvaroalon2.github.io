@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "LinguAIcoach",
+    "type": "ml",
+    "image": "/LinguAIcoach.jpeg",
+    "description": "LinguAIcoach employs advanced AI technology to enhance English skills through diverse \n exercises covering various exam types, offering comprehensive tools for practice and improvement.",
+    "tags": ["LangChain", "GenAI", "LLM", "GPT", "English", "NLP", "Python", "Streamlit"],
+    "source_code": "https://github.com/alvaroalon2/LinguAIcoach",
+    "demo": "https://linguaicoach.streamlit.app/"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "BioNLP",
+    "type": "pypi",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "Python library for the processing of biomedical tex through the extraction and normalization of named entities.",
+    "tags": ["NLP", "BERT", "NER", "Python", "HuggingFace", "PyTorch"],
+    "source_code": "https://github.com/librairy/bio-ner"
+  }
+]
