@@ -42,6 +42,25 @@
   width: 100% !important;
 }
 
+.emptyContainer {
+  background-color: var(--article-bg);
+  border-radius: 5px;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / -1;
+  margin: 1rem 0;
+}
+
+.emptyContainer p {
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+.emptyContainer p:first-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 @media screen and (max-width: 900px) {
   .user h3 {
     font-size: 1rem;
