@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Multimodal Automation for Chemistry",
+    "type": "professional",
+    "image": "/project_imgs/chemistry.png",
+    "description": "Designed and implemented multimodal automation solutions for chemistry client's use cases at OpenSistemas. The system integrates multiple data modalities (text, images, structured data) to automate complex chemistry workflows.",
+    "tags": ["Multimodal AI", "Chemistry", "Automation", "Computer Vision", "NLP", "Python", "Scientific Computing", "Industry 4.0"]
+  },
+  {
+    "id": 2,
+    "name": "On-Premises LLMOps Solution",
+    "type": "professional",
+    "image": "/project_imgs/LLMOps.png",
+    "description": "Designed and deployed a comprehensive LLMOps solution on premises for healthcare applications. The architecture enables local inference with state-of-the-art LLMs, integrates RAG systems for improved knowledge retrieval, and supports multimodal automation solutions for various client use cases.",
+    "tags": ["LLMOps", "GenAI", "LLM", "RAG", "Healthcare", "On-Premises", "Python", "API Development"]
+  },
+  {
+    "id": 3,
+    "name": "Fuel Pricing Optimization",
+    "type": "professional",
+    "image": "/project_imgs/precios_fuel.jpg",
+    "description": "Developed a pricing optimization project for Cepsa Service Stations, implementing and improving a tool with multiple modules based on ML forecasting models and a mathematical optimization model. Served as technical leader for the service station pricing team, ensuring optimal pricing strategies across the network.",
+    "tags": ["Machine Learning", "Forecasting", "Mathematical Optimization", "Pricing", "Python", "Energy Sector"]
+  },
+  {
+    "id": 4,
+    "name": "Preventive Maintenance with Autoencoders",
+    "type": "professional",
+    "image": "/project_imgs/refineria.jpeg",
+    "description": "Developed machine learning models using Autoencoders for anomaly detection in machinery, enabling preventive maintenance at Cepsa. The system identifies potential equipment failures before they occur, reducing downtime and maintenance costs.",
+    "tags": ["Autoencoders", "Anomaly Detection", "Preventive Maintenance", "Deep Learning", "Industrial IoT", "Python"]
+  },
+  {
+    "id": 5,
+    "name": "Customer Segmentation Analysis",
+    "type": "professional",
+    "image": "/project_imgs/cluster.png",
+    "description": "Conducted customer segmentation analysis for Cepsa, identifying key characteristics and providing strategic insights to customize marketing strategies targeted to each segment. The project enabled more personalized customer engagement and improved marketing ROI.",
+    "tags": ["Customer Segmentation", "Clustering", "Marketing Analytics", "Data Science", "Python", "Business Intelligence"]
+  },
+  {
+    "id": 6,
+    "name": "Construction Drawing Analysis with CV & OCR",
+    "type": "professional",
+    "image": "/project_imgs/ocr.png",
+    "description": "Developed a system to identify relevant information in construction drawings using Computer Vision (CV) and Optical Character Recognition (OCR) techniques. The solution automated the extraction of critical information from technical drawings, significantly reducing manual processing time.",
+    "tags": ["Computer Vision", "OCR", "Image Processing", "Document Analysis", "Python", "Construction"]
+  },
+  {
+    "id": 7,
+    "name": "Technical Documentation QA System",
+    "type": "professional",
+    "image": "/project_imgs/qa.jpg",
+    "description": "Built a Question Answering system for extraction of relevant information in technical product offering guides. The system enables users to query complex technical documents and receive precise answers, improving information accessibility and reducing time spent searching through documentation.",
+    "tags": ["NLP", "Question Answering", "Information Extraction", "Technical Documentation", "Python", "AI"]
+  },
+  {
+    "id": 8,
+    "name": "Verbalizapp API for Aphasia Patients",
+    "type": "professional",
+    "image": "/project_imgs/afasia.png",
+    "description": "Developed an API for the evaluation of verbal expression of patients with aphasia within the Verbalizapp mobile application for Hospital La Paz. The system processes voice recordings to score patient performance in pronouncing expected words, using Deep Learning models for Automatic Speech Recognition and a mathematical algorithm for comparing audio processing against references.",
+    "tags": ["Speech Recognition", "Healthcare", "API Development", "Deep Learning", "NLP", "Python", "Mobile Health"]
+  },
+  {
+    "id": 9,
+    "name": "SurvAI Platform with Federated Learning",
+    "type": "professional",
+    "image": "/project_imgs/survai.jpg",
+    "description": "Developed the SurvAI platform for Hospital La Paz, adapting it to use Federated Learning for evolving Machine Learning models. Created a proprietary implementation using MLFlow to orchestrate models following the proposed Federated Learning protocol, enabling privacy-preserving collaborative model training across distributed datasets.",
+    "tags": ["Federated Learning", "MLOps", "MLFlow", "Healthcare", "Python", "Distributed Systems", "Privacy-Preserving AI"]
+  },
+  {
+    "id": 10,
+    "name": "Active Listening Platform with Neo4j",
+    "type": "professional",
+    "image": "/project_imgs/neo4j.png",
+    "description": "Developed a graph database in Neo4j as a knowledge base for an Active Listening platform that analyzes social network profiles of companies. Implemented NLP techniques for analyzing posts and responses in social networks using sentiment analysis, Named Entity Recognition (NER), and topic classification of texts.",
+    "tags": ["Neo4j", "Graph Database", "NLP", "Sentiment Analysis", "NER", "Topic Modeling", "Social Media Analytics", "Python"]
+  }
+]
