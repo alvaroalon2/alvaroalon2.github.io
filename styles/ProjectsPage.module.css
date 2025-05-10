@@ -1,6 +1,23 @@
 .container {
   margin: 1.5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
+}
+
+.singleItemContainer {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
+}
+
+.singleItemContainer > div {
+  width: 100%;
+  max-width: 600px;
 }

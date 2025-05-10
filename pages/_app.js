@@ -1,3 +1,15 @@
+// Polyfill for Promise.withResolvers (needed for PDF.js with Node.js < 22)
+if (typeof Promise.withResolvers !== 'function') {
+  Promise.withResolvers = function() {
+    let resolve, reject;
+    const promise = new Promise((res, rej) => {
+      resolve = res;
+      reject = rej;
+    });
+    return { promise, resolve, reject };
+  };
+}
+
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import Head from "../components/Head";

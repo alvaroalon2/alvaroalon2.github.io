@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Álvaro Alonso</h1>
-            <h6 className={styles.bio}>Data Scientist</h6>
+            <h6 className={styles.bio}>Senior Data Scientist / AI Engineer</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -22,26 +22,38 @@ export default function HomePage() {
                     <span key='Python' className='Python'>
                       Python
                     </span>
+                    <span key='LLMOps' className='LLMOps'>
+                      LLMOps
+                    </span>
+                    <span key='GenAI' className='GenAI'>
+                      GenAI
+                    </span>
+                    <span key='RAG' className='RAG'>
+                      RAG
+                    </span>
                     <span key='AWS' className='AWS'>
                       AWS
                     </span>
-                    <span key='GCP' className='GCP'>
-                      GCP
+                    <span key='NLP' className='NLP'>
+                      NLP
+                    </span>
+                    <span key='LLM' className='LLM'>
+                      LLM
                     </span>
                     <span key='LangChain' className='LangChain'>
                       LangChain
                     </span>
-                    <span key='GenAI' className='GenAI'>
-                      GenAI
+                    <span key='HuggingFace' className='HuggingFace'>
+                      HuggingFace
+                    </span>
+                    <span key='GCP' className='GCP'>
+                      GCP
                     </span>
                     <span key='PyTorch' className='PyTorch'>
                       PyTorch
                     </span>
                     <span key='Keras' className='Keras'>
                       Keras
-                    </span>
-                    <span key='SQL' className='SQL'>
-                      SQL
                     </span>
                     <span key='MLOps' className='MLOps'>
                       MLOps
@@ -52,21 +64,7 @@ export default function HomePage() {
                     <span key='Docker' className='Docker'>
                       Docker
                     </span>
-                    <span key='Forecasting' className='Forecasting'>
-                      Forecasting
-                    </span>
-                     <span key='XGBoost' className='XGBoost'>
-                      XGBoost
-                    </span>
-                    <span key='NLP' className='NLP'>
-                      NLP
-                    </span>
-                    <span key='LLM' className='LLM'>
-                      LLM
-                    </span>
-                    <span key='HuggingFace' className='HuggingFace'>
-                      HuggingFace
-                    </span>
+
                   </div>
                 </div>
               </div>

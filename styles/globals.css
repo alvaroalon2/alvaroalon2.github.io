@@ -87,6 +87,30 @@
 .Docker:hover {background: rgba(245, 228, 121, 0.25);}
 .Streamlit {border: 0.1rem solid rgb(0, 0, 0);}
 .Streamlit:hover {background: rgba(0, 0, 0, 0.25);}
+.Neo4j {border: 0.1rem solid rgb(66, 184, 131);}
+.Neo4j:hover {background: rgba(66, 184, 131, 0.25);}
+.Graph-Database {border: 0.1rem solid rgb(66, 184, 131);}
+.Graph-Database:hover {background: rgba(66, 184, 131, 0.25);}
+.Machine-Learning {border: 0.1rem solid rgb(75, 192, 192);}
+.Machine-Learning:hover {background: rgba(75, 192, 192, 0.25);}
+.Autoencoders {border: 0.1rem solid rgb(153, 102, 255);}
+.Autoencoders:hover {background: rgba(153, 102, 255, 0.25);}
+.OCR {border: 0.1rem solid rgb(240, 255, 160);}
+.OCR:hover {background: rgba(240, 255, 160, 0.25);}
+.Image-Processing {border: 0.1rem solid rgb(240, 255, 160);}
+.Image-Processing:hover {background: rgba(240, 255, 160, 0.25);}
+.Scientific-Computing {border: 0.1rem solid rgb(54, 162, 235);}
+.Scientific-Computing:hover {background: rgba(54, 162, 235, 0.25);}
+.RAG {border: 0.1rem solid rgb(0, 153, 255);}
+.RAG:hover {background: rgba(0, 153, 255, 0.25);}
+.API-Development {border: 0.1rem solid rgb(43, 233, 173);}
+.API-Development:hover {background: rgba(43, 233, 173, 0.25);}
+.MLFlow {border: 0.1rem solid rgb(240, 255, 160);}
+.MLFlow:hover {background: rgba(240, 255, 160, 0.25);}
+.Clustering {border: 0.1rem solid rgb(153, 102, 255);}
+.Clustering:hover {background: rgba(153, 102, 255, 0.25);}
+.Multimodal-AI {border: 0.1rem solid rgb(200, 0, 255);}
+.Multimodal-AI:hover {background: rgba(200, 0, 255, 0.25);}
 
 
 
@@ -125,10 +149,70 @@
 .CNN:hover {background: rgba(240, 255, 160, 0.25);}
 .MLOps {border: 0.1rem solid rgb(240, 255, 160);}
 .MLOps:hover {background: rgba(240, 255, 160, 0.25);}
+.LLMOps {border: 0.1rem solid rgb(0, 153, 255);}
+.LLMOps:hover {background: rgba(0, 153, 255, 0.25);}
 .Software-Design {border: 0.1rem solid rgb(43, 233, 173);}
 .Software-Design:hover {background: rgba(43, 233, 173, 0.25);}
 .PyPi {border: 0.1rem solid rgb(0, 51, 255);}
 .PyPi:hover {background: rgba(0, 51, 255, 0.25);}
+.Healthcare {border: 0.1rem solid rgb(250, 110, 160);}
+.Healthcare:hover {background: rgba(250, 110, 160, 0.25);}
+.On-Premises {border: 0.1rem solid rgb(75, 192, 192);}
+.On-Premises:hover {background: rgba(75, 192, 192, 0.25);}
+.Mathematical-Optimization {border: 0.1rem solid rgb(235, 34, 46);}
+.Mathematical-Optimization:hover {background: rgba(235, 34, 46, 0.25);}
+.Pricing {border: 0.1rem solid rgb(159, 161, 42);}
+.Pricing:hover {background: rgba(159, 161, 42, 0.25);}
+.Energy-Sector {border: 0.1rem solid rgb(249, 115, 1);}
+.Energy-Sector:hover {background: rgba(249, 115, 1, 0.25);}
+.Anomaly-Detection {border: 0.1rem solid rgb(153, 102, 255);}
+.Anomaly-Detection:hover {background: rgba(153, 102, 255, 0.25);}
+.Preventive-Maintenance {border: 0.1rem solid rgb(75, 192, 192);}
+.Preventive-Maintenance:hover {background: rgba(75, 192, 192, 0.25);}
+.Industrial-IoT {border: 0.1rem solid rgb(249, 115, 1);}
+.Industrial-IoT:hover {background: rgba(249, 115, 1, 0.25);}
+.Customer-Segmentation {border: 0.1rem solid rgb(153, 102, 255);}
+.Customer-Segmentation:hover {background: rgba(153, 102, 255, 0.25);}
+.Marketing-Analytics {border: 0.1rem solid rgb(255, 118, 214);}
+.Marketing-Analytics:hover {background: rgba(255, 118, 214, 0.25);}
+.Data-Science {border: 0.1rem solid rgb(75, 192, 192);}
+.Data-Science:hover {background: rgba(75, 192, 192, 0.25);}
+.Business-Intelligence {border: 0.1rem solid rgb(159, 161, 42);}
+.Business-Intelligence:hover {background: rgba(159, 161, 42, 0.25);}
+.Document-Analysis {border: 0.1rem solid rgb(240, 255, 160);}
+.Document-Analysis:hover {background: rgba(240, 255, 160, 0.25);}
+.Construction {border: 0.1rem solid rgb(249, 115, 1);}
+.Construction:hover {background: rgba(249, 115, 1, 0.25);}
+.Question-Answering {border: 0.1rem solid rgb(0, 72, 255);}
+.Question-Answering:hover {background: rgba(0, 72, 255, 0.25);}
+.Information-Extraction {border: 0.1rem solid rgb(159, 161, 42);}
+.Information-Extraction:hover {background: rgba(159, 161, 42, 0.25);}
+.Technical-Documentation {border: 0.1rem solid rgb(43, 233, 173);}
+.Technical-Documentation:hover {background: rgba(43, 233, 173, 0.25);}
+.AI {border: 0.1rem solid rgb(200, 0, 255);}
+.AI:hover {background: rgba(200, 0, 255, 0.25);}
+.Speech-Recognition {border: 0.1rem solid rgb(0, 72, 255);}
+.Speech-Recognition:hover {background: rgba(0, 72, 255, 0.25);}
+.Mobile-Health {border: 0.1rem solid rgb(250, 110, 160);}
+.Mobile-Health:hover {background: rgba(250, 110, 160, 0.25);}
+.Federated-Learning {border: 0.1rem solid rgb(153, 102, 255);}
+.Federated-Learning:hover {background: rgba(153, 102, 255, 0.25);}
+.Distributed-Systems {border: 0.1rem solid rgb(75, 192, 192);}
+.Distributed-Systems:hover {background: rgba(75, 192, 192, 0.25);}
+.Privacy-Preserving-AI {border: 0.1rem solid rgb(200, 0, 255);}
+.Privacy-Preserving-AI:hover {background: rgba(200, 0, 255, 0.25);}
+.Sentiment-Analysis {border: 0.1rem solid rgb(0, 72, 255);}
+.Sentiment-Analysis:hover {background: rgba(0, 72, 255, 0.25);}
+.Topic-Modeling {border: 0.1rem solid rgb(0, 72, 255);}
+.Topic-Modeling:hover {background: rgba(0, 72, 255, 0.25);}
+.Social-Media-Analytics {border: 0.1rem solid rgb(255, 118, 214);}
+.Social-Media-Analytics:hover {background: rgba(255, 118, 214, 0.25);}
+.Chemistry {border: 0.1rem solid rgb(237, 55, 61);}
+.Chemistry:hover {background: rgba(237, 55, 61, 0.25);}
+.Automation {border: 0.1rem solid rgb(75, 192, 192);}
+.Automation:hover {background: rgba(75, 192, 192, 0.25);}
+.Industry-4-0 {border: 0.1rem solid rgb(249, 115, 1);}
+.Industry-4-0:hover {background: rgba(249, 115, 1, 0.25);}
 
 
 /* PDF */
