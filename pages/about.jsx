@@ -1,8 +1,21 @@
-import { pdfjs, Document, Page } from 'react-pdf'
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
-const myResume = './CV.pdf';
+import { useState, useEffect } from 'react'
+import dynamic from 'next/dynamic'
+
+// Dynamically import react-pdf components to avoid SSR issues
+const PDFViewer = dynamic(
+  () => import('../components/PDFViewer').then(mod => mod.default),
+  { ssr: false }
+);
+
+const myResume = '/CV.pdf';
 
 const AboutPage = () => {
+  const [isClient, setIsClient] = useState(false)
+  const [useFallback, setUseFallback] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
   return (
     <>
       <h3>About Me</h3><br/>
@@ -16,9 +29,26 @@ const AboutPage = () => {
       <center>
         <h3>CV (<a href={myResume} download="CV_Alvaro_Alonso.pdf">Download</a>)</h3>
         <br />
-        <Document file={myResume}>
-          <Page pageIndex={0} renderMode="svg"/>
-        </Document>
+        {isClient && !useFallback ? (
+          <div>
+            <PDFViewer 
+              pdfPath={myResume} 
+              onError={() => setUseFallback(true)}
+            />
+          </div>
+        ) : isClient && useFallback ? (
+          <div>
+            <iframe 
+              src={`${myResume}#toolbar=0`} 
+              width="100%" 
+              height="500px" 
+              style={{ border: 'none' }}
+              title="CV"
+            />
+          </div>
+        ) : (
+          <p>Loading PDF viewer...</p>
+        )}
       </center>
     </>
   );
